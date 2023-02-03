@@ -8,7 +8,7 @@
 <queries>
   <intent>
       <action android:name="android.intent.action"/>
-      <data android:schema="tel"/>
+      <!--data android:schema="tel"/-->
   </intent>
 
 </queries>

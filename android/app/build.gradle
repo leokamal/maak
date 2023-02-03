@@ -1,6 +1,9 @@
 plugins{
     id 'com.android.application'
     id 'kotlin-android'
+
+    // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'
 }
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
@@ -27,8 +30,9 @@ if (flutterVersionName == null) {
 
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -66,9 +70,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "androidx.multidex:multidex:2.0.1"
 }
-plugins {
-    id 'com.android.application'
 
-    // Add the Google services Gradle plugin
-    id 'com.google.gms.google-services'
-}
