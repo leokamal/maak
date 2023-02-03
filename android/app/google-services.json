@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "533477128372",
+    "project_id": "fir-maak",
+    "storage_bucket": "fir-maak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533477128372:android:50b5476f212173ee5cffe1",
+        "android_client_info": {
+          "package_name": "com.maakapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533477128372-0i1bc81bvf828296j8bss26ku7kapqv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5qPo8x4G4yCzsqr-k8gqYVEDs_-qQAPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533477128372-0i1bc81bvf828296j8bss26ku7kapqv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
