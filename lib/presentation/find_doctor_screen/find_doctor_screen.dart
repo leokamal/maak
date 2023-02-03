@@ -56,8 +56,8 @@ class FindDoctorScreen extends GetWidget<FindDoctorController> {
                                                 color:
                                                     ColorConstant.blueGray10001,
                                                 width: getHorizontalSize(5.00),
-                                                strokeAlign:
-                                                    StrokeAlign.center))),
+                                                strokeAlign: BorderSide.strokeAlignCenter))),
+                                                   // StrokeAlign.center
                                     CustomImageView(
                                         svgPath: ImageConstant.imgVideocamera,
                                         height: getVerticalSize(8.00),
